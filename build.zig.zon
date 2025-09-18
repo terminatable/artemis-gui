@@ -1,0 +1,19 @@
+.{
+    .name = .artemis_gui,
+    .version = "0.1.0",
+    .minimum_zig_version = "0.15.1",
+    .dependencies = .{
+        .artemis_engine = .{
+            .url = "https://github.com/terminatable/artemis-engine/archive/main.tar.gz",
+            .hash = "1220000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "examples",
+        "README.md",
+        "LICENSE",
+    },
+}
